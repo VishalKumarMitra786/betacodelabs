@@ -1,0 +1,30 @@
+.banner-img {
+    width: 100%
+}
+
+footer {
+    margin: auto;
+    width: 245px;
+    /* other styles */
+}
+
+header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.sec1 {
+    margin-top: 60px;
+}
+
+@media (max-width:599px) {
+
+    /* your conditional / responsive CSS inside this condition */
+
+    .sec1 {
+        margin-top: 100px;
+    }
+}
